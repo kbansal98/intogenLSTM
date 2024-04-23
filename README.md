@@ -69,3 +69,16 @@ An LSTM network and dataset for predicting the consequences of cancerous mutatio
     <td style="background-color: #f0f0f0">216</td>
   </tr>
 </table>
+
+
+
+
+
+## Original Dataset Statistics
+| Information     | Value        |
+|-----------------|--------------|
+| Cancer types    | 73           |
+| Cohorts         | 266          |
+| Samples         | 33,019       |
+| Mutations       | 252,486,809  |
+| Driver genes    | 619          |

@@ -47,7 +47,7 @@ A Pytorch based LSTM network and custom dataset for predicting the consequences 
         </tr>
       </table>
     </td>
-    <td style="padding-left: 20px;">
+    <td style="padding-right: 40px;">
       <h2>Consequence Frequencies</h2>
       <table>
         <tr>

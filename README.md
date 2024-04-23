@@ -1,5 +1,5 @@
 # intogenLSTM
-A Pytorch based LSTM network and custom dataset for predicting the consequences of cancerous mutations using prior mutation equences. Based on a subset of the intogen somatic tumor mutation database: https://www.intogen.org/search
+A Pytorch based LSTM network and custom dataset for predicting the consequences of cancerous mutations using prior mutation sequences. Based on a subset of the intogen somatic tumor mutation database: https://www.intogen.org/search
 
 ## Network Architecture
 ![](https://github.com/kbansal98/intogenLSTM/blob/main/modelJPG.jpg)

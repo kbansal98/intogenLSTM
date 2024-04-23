@@ -1,11 +1,10 @@
 # intogenLSTM
-An LSTM network and dataset for predicting the consequences of cancerous mutations using prior mutation equences.
+A Pytorch based LSTM network and custom dataset for predicting the consequences of cancerous mutations using prior mutation equences. 
 
-
+# Network Architecture
+![](https://github.com/kbansal98/intogenLSTM/blob/main/model.pdf)
 
 ## Dataset Statistics
-
-
 <table>
   <tr>
     <th>Statistic</th>
@@ -70,10 +69,7 @@ An LSTM network and dataset for predicting the consequences of cancerous mutatio
   </tr>
 </table>
 
-
-
-
-
+    
 ## Original Dataset Statistics
 | Information     | Value        |
 |-----------------|--------------|
@@ -82,3 +78,6 @@ An LSTM network and dataset for predicting the consequences of cancerous mutatio
 | Samples         | 33,019       |
 | Mutations       | 252,486,809  |
 | Driver genes    | 619          |
+
+## Visualization of Driver Gene Distribution
+![From intogen](https://github.com/kbansal98/intogenLSTM/blob/main/intogenGRaph.jpg)

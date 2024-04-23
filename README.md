@@ -18,9 +18,9 @@ A Pytorch based LSTM network and custom dataset for predicting the consequences 
 
 <table>
   <tr>
-    <td style="padding-right: 100px;">
+    <td style="padding-left: 100px;">
       <h2>Dataset Statistics</h2>
-      <table style="border-collapse: separate; border-spacing: 10px 0;">
+      <table style="border-collapse: separate; border-spacing: 200px 100px;">
         <tr>
           <th>Statistic</th>
           <th>Value</th>

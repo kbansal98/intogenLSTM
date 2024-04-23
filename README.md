@@ -13,14 +13,14 @@ A Pytorch based LSTM network and custom dataset for predicting the consequences 
 | Mutations       | 252,486,809  |
 | Driver genes    | 619          |
 
-## Visualization of Driver Gene Distribution
+### Visualization of Driver Gene Distribution
 ![From intogen](https://github.com/kbansal98/intogenLSTM/blob/main/intogenGRaph.jpg)
 
 <table>
   <tr>
-    <td>
+    <td style="padding-right: 100px;">
       <h2>Dataset Statistics</h2>
-      <table>
+      <table style="border-collapse: separate; border-spacing: 10px 0;">
         <tr>
           <th>Statistic</th>
           <th>Value</th>
@@ -49,7 +49,7 @@ A Pytorch based LSTM network and custom dataset for predicting the consequences 
     </td>
     <td style="padding-right: 40px;">
       <h2>Consequence Frequencies</h2>
-      <table>
+      <table style="border-collapse: separate; border-spacing: 10px 0;">
         <tr>
           <th>Consequence</th>
           <th>Frequency</th>
@@ -86,5 +86,6 @@ A Pytorch based LSTM network and custom dataset for predicting the consequences 
     </td>
   </tr>
 </table>
+
 
 

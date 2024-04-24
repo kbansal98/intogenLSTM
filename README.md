@@ -90,7 +90,7 @@ The PKL file of pre-packaged triplets can be accessed at: https://drive.google.c
 
 ## Preprocessing Training Data
 
-To preprocess the training data, follow these steps:
+To preprocess the raw data from the intogen website (for driver genes not in the given training data), follow these steps:
 
 1. Set the `folder_path` variable to the path where your TSV files are located.
 2. Define the `consequence_mapping` dictionary to map consequence types to numerical representations.

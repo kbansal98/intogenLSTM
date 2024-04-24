@@ -43,7 +43,7 @@ A Pytorch based LSTM network and custom dataset for predicting the consequences 
         </tr>
         <tr>
           <td>Number of unique consequences</td>
-          <td>8</td>
+          <td>7</td>
         </tr>
       </table>
     </td>

@@ -43,50 +43,47 @@ A Pytorch based LSTM network and custom dataset for predicting the consequences 
         </tr>
         <tr>
           <td>Number of unique consequences</td>
-          <td>7</td>
+          <td>8</td>
         </tr>
       </table>
     </td>
-    <td style="padding-left: 100px;">
-      <h2>Consequence Frequencies</h2>
-      <table>
-        <tr>
-          <th>Consequence</th>
-          <th>Frequency</th>
-        </tr>
-        <tr>
-          <td>0</td>
-          <td style="background-color: #f0f0f0">653</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td style="background-color: #f0f0f0">317</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td style="background-color: #f0f0f0">36</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td style="background-color: #f0f0f0">13</td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td style="background-color: #f0f0f0">150</td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td style="background-color: #f0f0f0">55</td>
-        </tr>
-        <tr>
-          <td>7</td>
-          <td style="background-color: #f0f0f0">216</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-
+<td style="padding-left: 100px;">
+  <h2>Consequence Frequencies</h2>
+  <table>
+    <tr>
+      <th>Consequence</th>
+      <th>Frequency</th>
+    </tr>
+    <tr>
+      <td>missense_variant</td>
+      <td style="background-color: #f0f0f0">653</td>
+    </tr>
+    <tr>
+      <td>frameshift_variant</td>
+      <td style="background-color: #f0f0f0">317</td>
+    </tr>
+    <tr>
+      <td>splice_acceptor_variant</td>
+      <td style="background-color: #f0f0f0">36</td>
+    </tr>
+    <tr>
+      <td>splice_donor_variant</td>
+      <td style="background-color: #f0f0f0">13</td>
+    </tr>
+    <tr>
+      <td>synonymous_variant</td>
+      <td style="background-color: #f0f0f0">150</td>
+    </tr>
+    <tr>
+      <td>inframe_deletion</td>
+      <td style="background-color: #f0f0f0">55</td>
+    </tr>
+    <tr>
+      <td>Stop_Gained</td>
+      <td style="background-color: #f0f0f0">216</td>
+    </tr>
+  </table>
+</td>
 # Downloading and Using Dataset
 The PKL file of pre-packaged triplets can be accessed at: https://drive.google.com/file/d/1-7LimJXEkoHPl58hKYj9VD3iBhO3HePR/view?usp=drive_link. You can also go to the original intogen dataset (linked above), and use processTSV and/or makeTriplets in order to create your own datasets of mutations.
 
@@ -108,14 +105,13 @@ folder_path = "/content/drive/MyDrive/NLP_DNA_TrainingData/"
 
 # Define the known consequence types and their numerical representations
 consequence_mapping = {
-    'missense_variant': 0,
+   'missense_variant': 0,
     'stop_gained': 1,
     'frameshift_variant': 2,
     'splice_acceptor_variant': 3,
     'splice_donor_variant': 4,
     'synonymous_variant': 5,
     'inframe_deletion': 6,
-    'stop_gained': 7
 }
 
 # Define the maximum mutation sequence length
